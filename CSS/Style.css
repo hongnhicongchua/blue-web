@@ -61,7 +61,7 @@ li:hover{
 .col{
     width: calc(100%/3);
     height: 500px;
-    margin-right: 10px;
+    margin: 10px;
     background-color: #ffffff;
     box-shadow: 3px 3px 5px 0px rgb(48,48,48);
 }
@@ -178,8 +178,7 @@ h4{
     text-rendering: optimizeLegibility;
 }
 .col:hover{
-    
-    width: 414px;
+    box-shadow: rgb(0, 38, 255) 0px 0px 12px 0px;
 }
 .sp12{
     color: black;
@@ -200,8 +199,10 @@ h4{
 }
 
 footer.cuoi{
-    width: 1519px;
+    margin-top: 50px;
     padding: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
     background: #0c77c5;
     border-bottom: 1px solid gray;
  
@@ -211,21 +212,7 @@ footer.cuoi{
     
 }
 
-footer.cuoi .p1{
-    display: block;
-    margin-right: 20px;
-    width: 40%;
-}
-footer.cuoi .p2{
-    display: block;
-    width: 30%;
-}
-h2.end{
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    color: white;
-    border-bottom: 1px solid white;
-}
+
 a.muccuoi{
     color: white;
     text-decoration: none;
@@ -245,17 +232,37 @@ ul.ok{
     font-weight: bold;
 }
 li.cuoicung{
-    margin-bottom: 10px;
-}
-h3.end{
-    color: white;
-    font-weight: bold;
+    width: 100%;
 }
 input{
     width: 300px;
 
 }
+
+footer.cuoi .p1, footer.cuoi .p2{
+    display: block;
+    width: 32%;
+    margin-right: 3%;
+    text-align: left;
+}
 .logocuoi{
-    margin-top: 20px;
-    margin-left: 90px;
+    display: block;
+    width: 30%;
+    text-align: left;
+}
+.logo1{
+    text-align: left;
+}
+
+h2.end{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+h3.end{
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
 }

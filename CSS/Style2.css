@@ -14,10 +14,7 @@
 .dieukien{
     text-align: center;
 }
-.ok{
-    padding-right: 10%;
-    padding-left: 10%;
-}
+
 .muc{
     text-decoration: none;
     color: black;
@@ -54,8 +51,10 @@ hr{
 }
 
 footer.cuoi{
-    width: 1519px;
+    margin-top: 50px;
     padding: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
     background: #0c77c5;
     border-bottom: 1px solid gray;
     font-family: 'Noto Sans';
@@ -65,22 +64,13 @@ footer.cuoi{
     
 }
 
-footer.cuoi .p1{
-    display: block;
-    margin-right: 20px;
-    width: 95%;
-}
+
 footer.cuoi .p2{
     display: block;
     width: 70%;
     
 }
-h2.end{
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    color: white;
-    border-bottom: 1px solid white;
-}
+
 
 a.muccuoi{
     color: white;
@@ -101,20 +91,14 @@ ul.ok{
     font-weight: bold;
 }
 li.cuoicung{
-    margin-bottom: 10px;
+    width: 100%;
 }
-h3.end{
-    color: white;
-    font-weight: bold;
-}
+
 input{
     width: 300px;
 
 }
-.logocuoi{
-    margin-top: 20px;
-    margin-left: 90px;
-}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -127,7 +111,6 @@ h2.dieukien{
 }
 .ok{
     font-weight: 200;
-    margin: 20px;
     margin-bottom: 50px;
 }
 .ko{
@@ -168,4 +151,33 @@ li:hover{
     color:white;
     background-color: #3CB371;
     
+}
+
+
+footer.cuoi .p1, footer.cuoi .p2{
+    display: block;
+    width: 32%;
+    margin-right: 3%;
+    text-align: left;
+}
+.logocuoi{
+    display: block;
+    width: 30%;
+    text-align: left;
+}
+.logo1{
+    text-align: left;
+}
+
+h2.end{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+h3.end{
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
 }
